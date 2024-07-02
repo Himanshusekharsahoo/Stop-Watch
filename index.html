@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stop-Watch</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <h1 class ="heading">Stop-Watch</h1>
+    <div class="card">
+        <div class="container">
+            <div class="stopwatch">
+                <span id="hours">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>:
+                <span id="milliseconds">000</span>
+            </div>
+            <div class="buttons">
+                <button id="startStop" onclick="startStop()">Start</button>
+                <button id="lapReset" onclick="lapReset()">Lap</button>
+                <button id="restart" onclick="restart()">Restart</button>
+            </div>
+            <div class="lapTimes"></div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
